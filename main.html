@@ -4,10 +4,65 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+		#movie{
+			height: 100%;
+			width: 550px;
+			align-content:center;
+			margin-top: 50px;
+			margin-left: 30px;
+			border: 1px solid black;
+			border-radius: 10px;
+		}
+		.moviePic{
+			height: 250px;
+			width: 200px;
+			opacity: transparent;
+			border: 1.5px solid blue;
+			border-radius: 10px;
+			overflow: hidden;
+			box-shadow: 0px 10px 20px lightblue;
+			margin-top: 20px;
+			margin-left: 20px;
+			
+		}
+
+		.movieDetail{
+			position: left;
+			top: 10px;
+			width: 350px;
+			height: 30%;
+			text-align: justify;
+			font-size: 1rem;
+			border: 1px solid black;
+			border-radius: 10px;
+			margin-left: 30px;
+			padding: 10px;
+			font-style: sans-serif;
+		}
+
+		#hd{
+			margin: 20px 30px;
+			/* font-family: scale3d; */
+			/* font-display: italic; */
+			font-style: italic;
+			box-shadow: 0px 10px 20px aqua;
+			/* color: white; */
+			overflow: hidden;
+			
+		}
+
+		
+	</style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<div id="movie">
+		<h1 id="hd"><u>Iron Man</u></h1>
+		<img src="https://m.media-amazon.com/images/I/61yvz+ELKyS._AC_UF1000,1000_QL80_.jpg" class="moviePic" alt="Iron Man" title="Iron Man 1">
+		<p class="movieDetail">A billionaire industrialist and genius inventor, Tony Stark (Robert Downey Jr.), is conducting weapons tests overseas, but terrorists kidnap him to force him to build a devastating weapon. Instead, he builds an armored suit and upends his captors. Returning to America, Stark refines the suit and uses it to combat crime and terrorism.</p>
+	</div>
     <script type="text/javascript" src="./script.js">
 </script>
 
